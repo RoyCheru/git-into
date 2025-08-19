@@ -1,1 +1,1 @@
-console.log("hey this is main")
+console.log("register page")
