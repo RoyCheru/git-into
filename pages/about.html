@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about me</title>
+    <style>
+    .container {
+      display: flex;          /* put items side by side */
+      border: 2px solid gray;
+      padding: 20px;
+    }
+    .text-section {
+      flex: 1;                /* take equal space */
+      padding: 10px;
+    }
+    .image-section {
+      flex: 1;
+      padding: 10px;
+    }
+    .image-section img {
+      max-width: 100%;        /* make image responsive */
+      border-radius: 10px;    /* rounded corners */
+      
+    }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Left side text -->
+    <div class="text-section">
+      <h2>About Me</h2>
+      <p>Hello! My name is <span style="color:blue;">Roy</span>.</p>
+      <p>I enjoy <span style="font-weight:bold;">web development</span>, music, and reading.</p>
+    </div>
+
+    <!-- Right side image -->
+    <div class="image-section">
+      <img src="../assets/20230409_065745.jpg" alt="My profile picture" height="100px">
+    </div>
+  </div>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Back to home page</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

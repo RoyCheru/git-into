@@ -3,30 +3,63 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rohitech solutions</title>
+    <title>Home page</title>
   </head>
   <body>
-    <h1>
-      <b>welcome to rohitech solutions. We bring you every tech solutions!</b>
-    </h1>
-    <h1>
-      <ol>
-        <li>cloud soutions</li>
-        <li>web development</li>
-      </ol>
-    </h1>
-    <div>
-      <div><p>Register with us today</p></div>
-      <div>
-        <p><input type="text" />Your Names</p>
-      </div>
-      <div>
-        <p><input type="text" />Email</p>
-      </div>
-      <div>
-        <p><input type="text" />Contacts</p>
-      </div>
-      <div><button type="submit">Submit</button></div>
-    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="pages/about.html">About</a></li>
+        <li><a href="pages/services.html">Services</a></li>
+        <li><a href="pages/contacts.html">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Welcome to My Website</h1>
+    <p>
+      This is the home page. Here you can learn more about us and our services.
+    </p>
+    <p>Dont have an account yet?</p>
+    <a href="./pages/signup.html">Click here to signup</a>
+
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Phone Number</th>
+        <th>Bringing</th>
+      </tr>
+      <tr>
+        <td>Daniel</td>
+        <td>718-555-1212</td>
+        <td>Guacamole</td>
+      </tr>
+      <tr>
+        <td>Rachel</td>
+        <td>718-555-1212</td>
+        <td>Chips</td>
+      </tr>
+      <tr>
+        <td>Terrance</td>
+        <td>914-555-1212</td>
+        <td>Salsa</td>
+      </tr>
+    </table>
+
+<select id="fruits" name="fruits" multiple>
+  <option value="mango">Mango</option>
+  <option value="banana">Banana</option>
+  <option value="orange">Orange</option>
+</select>
+<p>Select your hobbies:</p>
+<input type="checkbox" id="reading" name="hobby" value="reading">
+<label for="reading">Reading</label>
+
+<input type="checkbox" id="music" name="hobby" value="music">
+<label for="music">Music</label>
+
+<input type="checkbox" id="sports" name="hobby" value="sports">
+<label for="sports">Sports</label>
+
+
+
   </body>
 </html>
