@@ -1,0 +1,24 @@
+.container {
+      display: flex;
+      flex-direction: column;      /* Try: row | column */
+      justify-content: center;  /* Try: flex-start | flex-end | center | space-between | space-around | space-evenly */
+      align-items: center;      /* Try: flex-start | flex-end | center | stretch */
+      border: 3px solid gray;
+      height: 300px;            /* To see vertical alignment */
+      padding: 10px;
+    }
+
+    .box {
+      background: lightblue;
+      border: 2px solid navy;
+      padding: 20px;
+      margin: 5px;
+      flex: 0;  /* Try: 1 | 2 to make them grow */
+      text-align: center;
+    }
+    .inner{
+        background: lightgreen;
+      border: 2px dashed darkgreen;
+      padding: 10px;
+      margin-top: 10px;
+    }
